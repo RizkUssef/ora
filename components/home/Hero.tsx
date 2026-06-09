@@ -1,4 +1,6 @@
 import Link from "next/link";
+import PrimaryButton from "../ui/PrimaryButton";
+import SecondaryButton from "../ui/SecondaryButton";
 
 const Hero = () => {
   return (
@@ -13,12 +15,8 @@ const Hero = () => {
               meticulous precision.
             </p>
             <div className="flex justify-center gap-4">
-              <Link href="#" className="hero-btn-focus">
-                Reserve Your Date
-              </Link>
-              <Link href="#" className="hero-btn">
-                Explore the Hall
-              </Link>
+              <PrimaryButton to="#" label="Reserve Your Date" />
+              <SecondaryButton to="#" label="Explore the Hall" />
             </div>
           </div>
         </div>
