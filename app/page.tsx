@@ -1,3 +1,4 @@
+import Heritage from "@/components/home/Heritage";
 import Hero from "@/components/home/Hero";
 import StatsBanner from "@/components/home/StatsBanner";
 import Navbar from "@/components/layout/Navbar";
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <StatsBanner />
+      <Heritage />
     </div>
   );
 }
