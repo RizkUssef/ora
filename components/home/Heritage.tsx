@@ -9,7 +9,7 @@ const Heritage = () => {
       <ImageWrapper imageSrc={HeritageImage} imageAlt={"Heritage Image"}></ImageWrapper>
       <div className="heritage-content w-1/2">
         <p className="title">OUR HERITAGE</p>
-        <h1 className="label">The Legacy of ôRə</h1>
+        <h1 className="header">The Legacy of ôRə</h1>
         <p className="text">
           Founded in 1904, Aurelia Grand Hall was envisioned as a sanctuary for
           the most exquisite celebrations of the era. Over a century later, we

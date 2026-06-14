@@ -39,6 +39,7 @@
   --heritage-title: 1rem;
   --heritage-title-color: #755b00;
   --heritage-label: 3rem;
+  --heritage-sub-label: 2rem;
   --heritage-label-color: #211b0f;
   --heritage-text: 1rem;
   --heritage-text-color: #4d4637;
@@ -79,6 +80,7 @@
   --heritage-title: var(--heritage-title);
   --heritage-title-color: var(--heritage-title-color);
   --heritage-label: var(--heritage-label);
+  --heritage-sub-label: var(--heritage-sub-label);
   --heritage-label-color: var(--heritage-label-color);
   --heritage-text: var(--heritage-text);
   --heritage-text-color: var(--heritage-text-color);
@@ -130,6 +132,7 @@
     --heritage-title: 1rem;
     --heritage-title-color: #755b00;
     --heritage-label: 3rem;
+    --heritage-sub-label: 2rem;
     --heritage-label-color: #211b0f;
     --heritage-text: 1rem;
     --heritage-text-color: #4d4637;
@@ -147,6 +150,14 @@ body {
 .container {
   max-width: 95%;
   margin: 0 auto;
+}
+.header {
+  font-size: var(--heritage-label);
+  color: var(--heritage-label-color);
+}
+.sub-header {
+  font-size: var(--heritage-sub-label);
+  color: var(--heritage-label-color);
 }
 .nav-bar {
   height: var(--header-height);
@@ -349,10 +360,6 @@ body {
   margin-right: 0.5rem;
 }
 
-.heritage-section .label {
-  font-size: var(--heritage-label);
-  color: var(--heritage-label-color);
-}
 .heritage-section .text {
   font-size: var(--heritage-text);
   color: var(--heritage-text-color);
@@ -370,16 +377,16 @@ body {
   background: var(--heritage-title-color);
   margin-right: 0.5rem;
 }
-.heritage-section .heritage-image-wrapper{
+.heritage-section .heritage-image-wrapper {
   position: relative;
 }
-.heritage-section .heritage-image-wrapper .image-wrapper{
+.heritage-section .heritage-image-wrapper .image-wrapper {
   width: 432px;
   height: 540px;
   /* object-fit: cover; */
   object-fit: contain;
 }
-.heritage-section .heritage-image-wrapper .image-wrapper .image{
+.heritage-section .heritage-image-wrapper .image-wrapper .image {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -392,7 +399,7 @@ body {
   right: -15px;
   width: 100%;
   height: 100%;
-  /* z-index: -1; */
+  z-index: -1;
 }
 .heritage-section .heritage-content {
   display: flex;
@@ -401,4 +408,3 @@ body {
   justify-content: start;
   gap: 1rem;
 }
-
