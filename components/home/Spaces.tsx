@@ -7,7 +7,7 @@ import PrivateSalon from "@/app/assets/PrivateSalon.png";
 
 const Spaces = () => {
   return (
-    <div className="spaces-section container mt-6">
+    <div className="spaces-section container ">
       <h1 className="header">Our Signature Spaces</h1>
       <div className="spaces-image-wrapper">
         <div className="w-1/3 ">
